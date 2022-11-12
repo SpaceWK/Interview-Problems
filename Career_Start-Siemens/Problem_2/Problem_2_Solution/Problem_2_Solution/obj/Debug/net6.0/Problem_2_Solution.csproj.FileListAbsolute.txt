@@ -1,0 +1,15 @@
+D:\GitHub Projects\Interview-Problems\Career_Start-Siemens\Problem_2\Problem_2_Solution\Problem_2_Solution\bin\Debug\net6.0\Problem_2_Solution.exe
+D:\GitHub Projects\Interview-Problems\Career_Start-Siemens\Problem_2\Problem_2_Solution\Problem_2_Solution\bin\Debug\net6.0\Problem_2_Solution.deps.json
+D:\GitHub Projects\Interview-Problems\Career_Start-Siemens\Problem_2\Problem_2_Solution\Problem_2_Solution\bin\Debug\net6.0\Problem_2_Solution.runtimeconfig.json
+D:\GitHub Projects\Interview-Problems\Career_Start-Siemens\Problem_2\Problem_2_Solution\Problem_2_Solution\bin\Debug\net6.0\Problem_2_Solution.dll
+D:\GitHub Projects\Interview-Problems\Career_Start-Siemens\Problem_2\Problem_2_Solution\Problem_2_Solution\bin\Debug\net6.0\Problem_2_Solution.pdb
+D:\GitHub Projects\Interview-Problems\Career_Start-Siemens\Problem_2\Problem_2_Solution\Problem_2_Solution\obj\Debug\net6.0\Problem_2_Solution.csproj.AssemblyReference.cache
+D:\GitHub Projects\Interview-Problems\Career_Start-Siemens\Problem_2\Problem_2_Solution\Problem_2_Solution\obj\Debug\net6.0\Problem_2_Solution.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub Projects\Interview-Problems\Career_Start-Siemens\Problem_2\Problem_2_Solution\Problem_2_Solution\obj\Debug\net6.0\Problem_2_Solution.AssemblyInfoInputs.cache
+D:\GitHub Projects\Interview-Problems\Career_Start-Siemens\Problem_2\Problem_2_Solution\Problem_2_Solution\obj\Debug\net6.0\Problem_2_Solution.AssemblyInfo.cs
+D:\GitHub Projects\Interview-Problems\Career_Start-Siemens\Problem_2\Problem_2_Solution\Problem_2_Solution\obj\Debug\net6.0\Problem_2_Solution.csproj.CoreCompileInputs.cache
+D:\GitHub Projects\Interview-Problems\Career_Start-Siemens\Problem_2\Problem_2_Solution\Problem_2_Solution\obj\Debug\net6.0\Problem_2_Solution.dll
+D:\GitHub Projects\Interview-Problems\Career_Start-Siemens\Problem_2\Problem_2_Solution\Problem_2_Solution\obj\Debug\net6.0\refint\Problem_2_Solution.dll
+D:\GitHub Projects\Interview-Problems\Career_Start-Siemens\Problem_2\Problem_2_Solution\Problem_2_Solution\obj\Debug\net6.0\Problem_2_Solution.pdb
+D:\GitHub Projects\Interview-Problems\Career_Start-Siemens\Problem_2\Problem_2_Solution\Problem_2_Solution\obj\Debug\net6.0\Problem_2_Solution.genruntimeconfig.cache
+D:\GitHub Projects\Interview-Problems\Career_Start-Siemens\Problem_2\Problem_2_Solution\Problem_2_Solution\obj\Debug\net6.0\ref\Problem_2_Solution.dll
