@@ -10,13 +10,14 @@ namespace Problem_2_Solution
 
         public static string[] CreateRandomArrayOfStrings(int numberOfStrings) {
 
-            // Take the caracters and numbers to can construct random strings
-            var chars = "abcdefghijklmnopqrstuvwxyz0123456789[]%";
-            var randomChar = new Random();
+            // Take the caracters to can construct random strings
+            var chars = "abcdefghijklmnopqrstuvwxyz[]%";
+
+            // Take the numbers to can construct random strings
+            var numbers = "0123456789";
 
             // Take some white spaces to can divide the string in some portiones
             var space = " ";
-            var randomSpace = new Random();
 
             var random = new Random();
 
@@ -37,16 +38,24 @@ namespace Problem_2_Solution
                 // Create a random string
                 for (int i = 0; i < stringChars.Length; i++) {
 
-                    // Take a random number to can add a white space
-                    int randomSpaceLenght = randomSpace.Next(1, 10);
+                    // Take a random number to can add a white space in the string
+                    int randomSpaceLenght = random.Next(1, 10);
+                    // Take a random number to can add a number in the string
+                    int randomNumberLenght = random.Next(1, 10);
 
                     // Choose a number less then 2 to not have so many white spaces
                     if (randomSpaceLenght < 2) {
                         // Append each white space in the string
-                        stringChars[i] = space[randomSpace.Next(space.Length)];
+                        stringChars[i] = space[random.Next(space.Length)];
                     } else {
-                        // Append each character in the string
-                        stringChars[i] = chars[randomChar.Next(chars.Length)];
+                        // Choose a number less then 2 in order to not exceed the inter size
+                        if (randomNumberLenght < 2) {
+                            // Append each number in the string
+                            stringChars[i] = numbers[random.Next(numbers.Length)];
+                        } else {
+                            // Append each character in the string
+                            stringChars[i] = chars[random.Next(chars.Length)];
+                        }
                     }
                 }
 
@@ -102,6 +111,7 @@ namespace Problem_2_Solution
 
                     // Condition to check if exist a number in a split string
                     if (numbersPerSplit.Length > 0) {
+                        
                         // convert string to int
                         val = int.Parse(numbersPerSplit);
 
@@ -135,7 +145,9 @@ namespace Problem_2_Solution
 
         public static int[] RemoveDuplicatesFromSortedArray(int[] arrayOfNumbers) {
 
+            // Create an index to can move the numbers forward and to can eliminate de duplicates
             int index = 1;
+            // Save the numbers in a new array whithout the duplicates
             for (int i = 0; i < arrayOfNumbers.Length - 1; i++) {
                 if (arrayOfNumbers[i] != arrayOfNumbers[i + 1]) {
                     arrayOfNumbers[index] = arrayOfNumbers[i + 1];
@@ -146,6 +158,7 @@ namespace Problem_2_Solution
                 }
             }
 
+            // Put the numbers in a final array with the indexes for each single number 
             int[] newarr = new int[index];
             for (int i = 0; i < index; i++) {
                 newarr[i] = arrayOfNumbers[i];
